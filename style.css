@@ -1,0 +1,36 @@
+h1{
+    text-align: center;
+    color: #e28743
+}
+img{
+    text-align: center;
+    height: 40%;
+   transition: 0.3s;
+
+}
+img:hover{
+    transform: scale(1.8);
+}
+h1:hover{
+    color: aquamarine;
+}
+.ttp{
+    position:relative;
+    display:inline-block;
+    border-bottom: 1px dotted black;
+}
+.ttp .ttxt{
+    visibility: hidden;
+    width: 120px;
+    background-color: aquamarine;
+    color: black;
+    text-align: center;
+    padding: 3px;
+    border-radius: 6px;
+
+    position: absolute;
+    z-index: 1;
+}
+.ttp:hover .ttxt{
+    visibility: visible;
+}
